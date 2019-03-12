@@ -1,0 +1,102 @@
+body,dd,dl,form,h1,h2,h3,h4,h5,h6,input,ol,p,select,td,textarea,th{
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body,button,input,select,textarea {
+	font: 12px/1.5 microsoft yahei, arial, \5b8b\4f53
+}
+
+input:focus {
+	outline: none
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+button {
+	cursor: pointer
+}
+
+.sn-f-cb:after {
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+
+.sn-fl {
+	float: left
+}
+
+.sn-fr {
+	float: right
+}
+
+.sn-usn {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none
+}
+
+.sn-text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.sn-lines3-text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical
+}
+
+.sn-text-tu {
+	text-transform: uppercase
+}
+
+.sn-text-tl {
+	text-transform: lowercase
+}
+
+.sn-text-tc {
+	text-transform: capitalize
+}
+
+.sn-font-vsc {
+	font-variant: small-caps
+}
+
+.sn-white-sn {
+	white-space: nowrap
+}

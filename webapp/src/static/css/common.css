@@ -1,0 +1,16 @@
+/*设置全局的css样式*/
+.textFont {
+    font-size: 13px;
+    font-family: "微软雅黑", Simsun;
+}
+
+.bottom-btn-add {
+    padding-bottom: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.detailTableSet {
+    text-align: center;
+}

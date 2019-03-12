@@ -1,0 +1,19 @@
+
+
+.clear{clear:both;}
+#capacityDiv{position:fixed;top:0;left:0;width:100%;height:100%;z-index:499;overflow:auto;}
+.msg_yy{position:fixed;top:0;left:0;z-index:498;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);display:none;}
+.msg_ {width:400px;position:fixed;top:50%;left:50%;z-index:500;background:#fff;display:none;box-shadow: 0px 0px 5px 1px #000;margin:0px 0px 100px -200px;background:url('../images/box-background.png') no-repeat;background-color:#fff;}
+.msg_ .msg_h {font-size:20px;font-weight:600;position:relative;height:0px;}
+.msg_ .msg_h .msg_close{position:absolute;top:-13px;right:-13px;width:26px;height:26px;line-height:18px;text-align:center;background: #fff;border-radius: 14px;cursor:pointer;background:url('../images/close.png') no-repeat;}
+.msg_ .msg_c { text-indent:30px;font-size:13px;padding: 60px 45px;line-height: 24px;min-height: 30px;}
+.msg_ .msg_f {text-align:center;border-top: 1px solid #eee;width: 90%;margin: 0px auto;}
+.msg_ .msg_f .foot1{float:left;width:100%;}
+.msg_ .msg_f .foot2{float:left;width:50%;}
+.msg_ .msg_f .msg_i { background: #f00; margin: 10px auto;border-radius: 3px;display:inline-block;line-height: 28px; text-align:center;color: #fefefe;width:50%;font-size: 12px;}
+.msg_ .msg_f .msg_i:hover { background: red; cursor: pointer;}
+.msg_ .msg_f .foot2:nth-child(2) .msg_i{background:#eee;color:#444;}
+.msg_submit { float: right;margin-right: 20px !important;}
+
+#weakHintBox{position:fixed;left:50%;line-height:28px;z-index:499;background-color:rgba(184, 219, 143,0.6);color:#282828;
+text-align:center;display: inline-block;}

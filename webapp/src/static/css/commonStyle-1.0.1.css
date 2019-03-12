@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+body{font: 12px/150% Arial,Verdana,"\5b8b\4f53";}
+.clear{clear:both;}
+a{text-decoration:none;}
+table{display:table;border-collapse: collapse;}
+table tr td{text-align: center;}
+ul li{list-style:none;}
+.formEle{width:140px;height:24px;line-height:24px;margin-left:6px;border:1px solid #ddd;border-radius:0px;text-indent:5px;}
+::-webkit-scrollbar-thumb{background-color:#aaa;height:50px;outline-offset:-2px;outline:2px solid #fff;-webkit-border-radius:4px;border: 2px solid #fff;  }
+::-webkit-scrollbar-thumb:hover{background-color:#666;height:50px; -webkit-border-radius:4px;  }
+::-webkit-scrollbar{ width:8px;height:8px;}
+::-webkit-scrollbar-track-piece{background-color:#fff;-webkit-border-radius:0;}

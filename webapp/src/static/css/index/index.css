@@ -1,0 +1,63 @@
+body{font-family:"microsoft yahei";font-size:12px;}
+a{display:inline-block;text-decoration:none;color:#44ADE9;cursor:pointer;}
+a:hover{text-decoration:underline;}
+input{font-family:"microsoft yahei";width:140px;line-height:26px;height:26px;border-radius:0px;border:1px solid #ddd;outline:none;text-indent:5px;}
+input.error{border-color:#e60012;}
+input:focus{border-color:#62e6ff;}
+
+.clear{clear:both;}
+.content{width:98%;margin:0 auto;}
+.content table{display:table;border:1px solid #ddd;border-collapse:collapse;}
+.content table tr td{text-align:center;}
+.content ul li{list-style:none;}
+.content .btn{font-family:"microsoft yahei";height:26px;line-height:26px;width:70px;cursor:pointer;outline:none;background:#eee;color:#333;text-align:center;border:1px solid #eee;}
+.content .btn:hover{background:#ddd;}
+
+.content .search{width:96%;margin:20px 2%;}
+.content .search span{}
+.content .search input{}
+.content .search .btn{margin-left:20px;}
+
+.content .prompt{width:98%;margin:0px auto;text-align:right;color:#44ADE9;}
+
+.container{width:98%;margin:0px auto;}
+.container .title{margin:20px 0;font-size:16px;text-align:center;font-weight:bold;}
+.container .tableResult{width:100%;border:1px solid #eee;font-size:12px;}
+.container .tableResult thead tr{height:36px;background:#eee;color:#333;font-size:14px;}
+.container .tableResult tbody tr{height:32px;}
+.container .tableResult tbody tr td{border: 1px solid #eee;}
+.container .tableResult tbody tr:hover{background:#f6f6f6;}
+.container .tableResult tbody tr td a{margin:0 3px;}
+
+.tablePoundage{width:100%;display:table;border:1px solid #eee;font-size:12px;}
+.tablePoundage caption{text-align:center;line-height:60px;font-size:16px;font-weight:600;}
+.tablePoundage thead tr{height:36px;background:#eee;color:#333;font-size:14px;}
+.tablePoundage tbody tr{height:32px;border-buttom:1px solid #eee;}
+.tablePoundage tbody tr td{border: 1px solid #eee;}
+.tablePoundage tbody tr:hover{background:#f6f6f6;}
+
+#rule_modify{display:none;}
+#rule_FR_modify{display:none;}
+#rule_purchaser_modify{display:none;}
+.modify_yy{width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);position:fixed;top:0;left:0;z-index:3;display:black;}
+.modify_content{width:450px;position:fixed;top:50%;left:50%;z-index:4;background:#fff;display:black;box-shadow: 0px 0px 5px 1px #000;margin:-200px 0px 0px -225px;border-radius:3px;}
+.modify_content .modify_head{background:#eee;color:#666;}
+.modify_content .modify_head p{float:left;line-height:40px;font-size:16px;font-weight:600;padding-left:20px;display:inline-block;}
+.modify_content .modify_head span{width:26px;height:26px;line-height:27px;text-align:center;float:right;font-size:16px;border-radius:15px;margin:7px;}
+.modify_content .modify_head span:hover{background:#fefefe;cursor:pointer;}
+.modify_ul{border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+.modify_ul li{height:36px;line-height:36px;text-indent:20px;}
+.modify_ul li input{width:150px;height:26px;line-height:26px;text-indent:10px;border:1px solid #ddd;border-radius:3px;margin-left:5px;}
+.modify_ul li input.error{border-color:#e60012;}
+.modify_ul li label{width:150px;display:inline-block;text-align:right;}
+.modify_ul li label font{color:#e60012;}
+.modify_ul li>span{display:inline-block;text-indent:0px;height:26px;line-height:26px;padding:0 10px;margin-left:20px;background-color:#eee;border:1px solid #ddd;cursor:pointer;border-radius:2px;}
+.modify_ul li>span:hover{background-color:#ccc;}
+.modify_foot{text-align:right;}
+.modify_foot .save{display:inline-block;padding:2px 20px;background:#EEE;color:#666;border-radius:3px;margin:8px;}
+.modify_foot .save:hover{background:#ddd;cursor:pointer;}
+.modify_foot .modify_cancel{display:inline-block;padding:2px 20px;background:#eee;color:#666;border-radius:3px;margin:8px;}
+.modify_foot .modify_cancel:hover{background:#ddd;cursor:pointer;}
+
+#commit_yy{width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);position:fixed;top:0;left:0;z-index:20;display:none;}
+#commit_title{width:270px;height:50px;line-height:50px;text-align:center;position:fixed;top:50%;left:50%;z-index:21;background:#fff;display:none;box-shadow: 0px 0px 5px 1px #000;margin:-30px 0px 0px -135px;border-radius:3px;font-size:18px;}

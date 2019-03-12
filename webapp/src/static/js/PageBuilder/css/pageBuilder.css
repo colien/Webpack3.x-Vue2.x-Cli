@@ -1,0 +1,32 @@
+ /*css start*/
+.bold{font-weight:500;}
+.divBody {line-height: 35px;width: 100%;margin-top:10px;margin-bottom:30px;text-align:right;}
+.divContent{line-height:26px;text-align: right;margin: 10px 0px 40px 0px;font-family:"Microsoft Yahei";font-size:12px;}
+.divContent input{font-family:"Microsoft Yahei";};
+.divContent a{text-decoration:none;}
+.aBtn,.spanApostrophe{border:1px solid #979797;border-radius:3px;margin:0 5px;text-align:center;vertical-align:middle;background:#FcFcFc;color:#666;display:inline-block;padding:0 8px;}
+.aBtn{cursor:pointer;}
+.aBtn:hover,.spanBtnSelected,.aBtn:active{border:1px solid #E80D1F;color:#E80D1F;}
+.preBtn{margin-right:8px;}
+.nextBtn{margin-left:8px;}
+.aBtn b{font-weight:normal;}
+.aBtn span.icon{width:9px;height:9px;display:inline-block;background:url("../images/arrowIcon.png") 2px 1px no-repeat;}
+.nextBtn span.icon{background-position:-7px 1px;}
+.preBtn:hover span.icon{background-position:-16px 1px;}
+.nextBtn:hover span.icon{background-position:-24px 1px;}
+.spanBtnDisabled{background:#fff;border-color:#eee;color:#ddd;}
+.spanBtnDisabled:hover{background:#fff;border-color:#eee;color:#ddd;}
+.spanBtnDisabled.preBtn span.icon{background-position:-34px 1px;}
+.spanBtnDisabled.nextBtn span.icon{background-position:-46px 1px;}
+
+.inputPagecode{border:1px solid #979797;border-radius:3px;text-align:center;vertical-align:middle;background:#FcFcFc;color:#666;display:inline-block;width:40px;height:28px;line-height:28px;outline:none;}
+.inputPagecode.error{border-color:#e60012;}
+.inputPagecode:focus{border-color:#62e6ff;}
+.aSubmit{border: 1px solid #979797;border-radius:3px;padding:0 8px;display:inline-block;color:#666;vertical-align:middle;text-decoration:none;cursor:pointer;}
+.aSubmit:hover{border:1px solid #E80D1F;color:#E80D1F;}
+.pageSize{display:inline-block;width:60px;height: 26px;line-height:26px;vertical-align:middle;border:1px solid #ccc;border-radius:3px;outline:none;}
+.pageSize:focus{outline:none;border-color:#62e6ff;}
+/* #pageSize+span{display:none;}  */
+.pageNumChange{font-family:"Microsoft Yahei";font-size:12px;float:left;line-height: 26px;/* height:0px; */}
+
+/*css end*/

@@ -1,0 +1,110 @@
+{
+  "name": "fr_f_privilege",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "local": "cross-env NODE_ENV=local webpack-dev-server --progress --hot --colors",
+    "dev": "cross-env NODE_ENV=dev webpack --colors --progress",
+    "build": "cross-env NODE_ENV=prod webpack --colors --progress",
+    "stats": "cross-env NODE_ENV=prod webpack --progress --profile --json > stats.json",
+    "review": "eslint --config ./eslint.config.js --color --ext .js --ext .vue src/",
+    "review-fix": "eslint --config ./eslintrc.config.js --fix --color --ext .js --ext .vue src/",
+    "dll": "cross-env NODE_ENV=prod webpack --progress --colors --config ./configs/webpack.dll.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "vue"
+  ],
+  "babel": {
+    "presets": [
+      "es2015",
+      [
+        "env",
+        {
+          "modules": false,
+          "targets": {
+            "browsers": [
+              "> 1%",
+              "last 2 versions",
+              "not ie <= 8"
+            ]
+          }
+        }
+      ],
+      "stage-2"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "devDependencies": {
+    "add-asset-html-webpack-plugin": "^2.1.3",
+    "add-module-exports-webpack-plugin": "^0.1.0",
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "clean-webpack-plugin": "^0.1.14",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.1.4",
+    "cross-spawn": "^5.0.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.10.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.2.0",
+    "html-withimg-loader": "^0.1.16",
+    "js-md5": "^0.7.2",
+    "less": "^3.7.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.3",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-url": "^7.3.0",
+    "qs": "^6.5.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.14.0",
+    "url-loader": "^0.5.8",
+    "vue": "^2.5.0",
+    "vue-loader": "^13.3.0",
+    "vue-router": "^2.8.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.0",
+    "webpack": "^3.9.0",
+    "webpack-dev-server": "^2.10.0",
+    "webpack-hashed-chunk-id-plugin": "^1.0.3-beta",
+    "webpack-parallel-uglify-plugin": "^1.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "es6-promise": "^4.2.5"
+  }
+}
