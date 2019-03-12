@@ -19,12 +19,9 @@ if (NODE_ENV == "local") {
 		compress: true,			//是否开启 gzip 压缩
 		host : "localhost",
 		proxy: {
-			'/rule': {
-				 target: 'https://rule-deva.flightroutes24.com',  //目标接口域名
+			'/b2b': {
+				 target: '',  //目标接口域名
 				 changeOrigin: true,  //是否跨域
-				 pathRewrite: {
-					'^/rule': '/rule',   //重写接口
-				 }
 			},
 		},
 	}
