@@ -6,6 +6,8 @@ Webpack configuration
 1. 可以设置代理
 2. 基于多页应用
 3. 没有集成 vue-router 和 vuex
+4. 支持 ES6
+5. 支持 scss
 
 
 
