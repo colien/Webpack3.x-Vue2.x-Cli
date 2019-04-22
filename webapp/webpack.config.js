@@ -20,7 +20,7 @@ if (NODE_ENV == "local") {
 		host : "localhost",
 		proxy: {
 			'/rule': {
-				 target: 'https://rule-deva.flightroutes24.com',  //目标接口域名
+				 target: 'https://rule-deva.target.com',  //目标接口域名
 				 changeOrigin: true,  //是否跨域
 				 pathRewrite: {
 					'^/rule': '/rule',   //重写接口
